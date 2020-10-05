@@ -1,0 +1,13 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serve src"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {}
+}
