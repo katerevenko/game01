@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html, body {
+background-color: #ecd8f1;
+width: 400px;
+margin: auto;
+height: 100%;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hand {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line {
+  height: 2px;
+  background-color: pink;
+}
+
+.score {
+  width: 100%;
+  text-align: center;
+}
+
+.tablo {
+  height: 30px;
+  margin: -15px auto 0;
+  border: 2px solid pink;
+  background-color: #ecd8f1;
+  width: fit-content;
+  line-height: 26px;
+  padding: 1px 8px;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button img{
+  height: 40px;
+  display: block;
+}
+
+.footer {
+  margin-top: 20px;
+}

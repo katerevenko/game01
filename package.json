@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "serve src"
+    "dev": "serve docs"
   },
   "dependencies": {
     "nodemon": "^2.0.4",
