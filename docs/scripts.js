@@ -26,8 +26,8 @@ function start(playerHandName) {
   let rNum = randomInteger(0, 4)
   let botHandName = handNames[rNum];
 
-  playerImage.src = '/img/' + playerHandName + '.png'
-  botImage.src = '/img/' + botHandName + '.png'
+  playerImage.src = 'img/' + playerHandName + '.png'
+  botImage.src = 'img/' + botHandName + '.png'
 
   if (playerHandName === botHandName) {
     result = 0
