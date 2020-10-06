@@ -1,3 +1,14 @@
+// TODO: не использовать в HTML тег `onclick`,
+// использовать вместо него события:
+// https://learn.javascript.ru/introduction-browser-events#addeventlistener
+
+// TODO: вынести получение элементов `img` за пределы функции `start`.
+// Пояснение: getElementById можно сделать один раз и использовать результат,
+// а сейчас у тебя при каждом запуске игры, скрипт заново ищет эти блоки на странице.
+
+// TODO: исправить имена переменных:
+// - для бота: botScore, botHandName, botImage и т. д.
+// - для игрока: playerScore, playerHandName, playerImage и т. д.
 
 let imgs = [
   'lizard',
@@ -30,6 +41,7 @@ function start(handName) {
   } else {
     result = 1
   }
+  // TODO: менять только цифры, текст не трогать внутри скриптов!
   if (result === 1) {
     document.getElementById('result').innerText = 'ты блять победил'
     document.getElementById('resNumH').innerText = 'Player:' + (++resH)
