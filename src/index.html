@@ -14,45 +14,33 @@
 </head>
 
 <body>
-  <script src="/scripts.js"></script>
-
   <div class="header">
     <div class="player1">
-      <p class="plays"> Computer: </p>
+      <p class="plays" id='resNumC'>Computer:</p>
     </div>
     <div class="player2">
-      <p class="plays">Player:</p>
+      <p class="plays" id='resNumH'>Player:</p>
     </div>
   </div>
   <div class="space">
-    <p>Результат</p>
+    <p id="result">Результат</p>
   </div>
   <div class="hands">
-    <div class="hand">
-      <img src="/img/rock.png">
-    </div>
-    <div class="hand">
-      <img src="/img/rock.png">
-    </div>
+    <div class="hand"><img id="compHand" src="/img/rock.png"></div>
+    <div class="hand"><img id="hand" src="/img/rock.png"></div>
   </div>
   <div class="buttons">
-    <div class="button">
-      <p>rock</p>
-    </div>
-    <p class="button">scissors</p>
-    <div>
-      <p class="button">paper</p>
-    </div>
-    <div>
-      <p class="button">lizard</p>
-    </div>
-    <div>
-      <p class="button">spock</p>
-    </div>
+    <button class="button" onclick="start('rock')">rock</button>
+    <button class="button" onclick="start('scissors')">scissors</button>
+    <button class="button" onclick="start('paper')">paper</button>
+    <button class="button" onclick="start('lizard')">lizard</button>
+    <button class="button" onclick="start('spock')">spock</button>
   </div>
+
   <footer class="footer">
     <p>vova lox 2020</p>
   </footer>
+  <script src="/scripts.js"></script>
 </body>
 
 </html>
